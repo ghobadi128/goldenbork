@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoldenBork — Bay Area Dog Lifestyle Guide | Honest Reviews & Local Tips</title>
+<meta name="description" content="Honest, up-to-date dog gear reviews and Bay Area local guides. Real testing, real results — from SF dog parks to Marin hiking trails. No fluff, just facts.">
+<meta name="keywords" content="Bay Area dogs, San Francisco dog parks, dog gear reviews, dog hiking trails Marin, Oakland dog parks, best dog beds, dog harness reviews">
+<meta property="og:title" content="GoldenBork — Bay Area Dog Lifestyle Guide">
+<meta property="og:description" content="Honest dog gear reviews and Bay Area local guides. Real testing, no sponsored rankings.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://goldenbork.netlify.app">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"GoldenBork","url":"https://goldenbork.netlify.app","description":"Honest Bay Area dog lifestyle guide with gear reviews and local tips.","publisher":{"@type":"Organization","name":"GoldenBork"}}
+</script>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+
+<nav id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">🐾 <span class="g">Golden</span><span class="b">Bork</span></a>
+    <div class="nav-links">
+      <a href="parks.html">Dog Parks</a>
+      <a href="trails.html">Hiking Trails</a>
+      <a href="gear.html">Gear Reviews</a>
+      <a href="about.html">About</a>
+      <a href="#newsletter" class="nav-cta">Subscribe</a>
+    </div>
+    <button class="hamburger" onclick="document.getElementById('mob').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mob-menu" id="mob">
+  <a href="parks.html" onclick="document.getElementById('mob').classList.remove('open')">Dog Parks</a>
+  <a href="trails.html" onclick="document.getElementById('mob').classList.remove('open')">Hiking Trails</a>
+  <a href="gear.html" onclick="document.getElementById('mob').classList.remove('open')">Gear Reviews</a>
+  <a href="about.html" onclick="document.getElementById('mob').classList.remove('open')">About</a>
+  <a href="#newsletter" onclick="document.getElementById('mob').classList.remove('open')">Subscribe</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge f1">Bay Area's Dog Resource</div>
+    <h1 class="f2">Honest Gear Reviews &amp; <em>Local Dog Guides</em> for the Bay</h1>
+    <p class="f3">We test dog gear in real Bay Area conditions and write guides based on where we actually walk our dogs. No sponsored rankings, no fluff — just useful information for you and your pup.</p>
+    <div class="hero-btns f3">
+      <a href="gear.html" class="btn btn-gold">Read Gear Reviews →</a>
+      <a href="parks.html" class="btn btn-outline">🗺️ Find Dog Parks</a>
+    </div>
+    <div class="hero-stats f4">
+      <div><div class="stat-num">50+</div><div class="stat-label">Products Tested</div></div>
+      <div><div class="stat-num">30</div><div class="stat-label">Trail Guides</div></div>
+      <div><div class="stat-num">6</div><div class="stat-label">Bay Area Cities</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<div class="trust">
+  <div class="trust-row">
+    <span>✓ Independently Tested</span>
+    <span>✓ Bay Area Based Team</span>
+    <span>✓ Updated Regularly</span>
+    <span>✓ No Sponsored Rankings</span>
+  </div>
+</div>
+
+<!-- FEATURED GUIDES -->
+<section>
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">Featured Guides</div>
+      <h2 class="section-title">Recent Reviews &amp; Guides</h2>
+      <p class="section-desc">Each guide is based on hands-on testing in real Bay Area conditions — our apartments, our trails, our weather.</p>
+    </div>
+    <div class="g3">
+      <a href="gear.html" class="card reveal">
+        <div class="card-icon" style="background:linear-gradient(135deg,rgba(212,160,23,.08),rgba(224,124,52,.08))">🛏️</div>
+        <div class="card-body">
+          <div class="card-label">Gear Review</div>
+          <h3>Best Dog Beds for SF Apartments (2025)</h3>
+          <p>We tested 12 dog beds in real Bay Area apartments ranging from studios to 2-bedrooms. Here's what held up.</p>
+          <div class="card-foot"><span>12 min read</span><span class="card-tag">Updated May 2025</span></div>
+        </div>
+      </a>
+      <a href="trails.html" class="card reveal">
+        <div class="card-icon" style="background:linear-gradient(135deg,rgba(107,114,128,.06),rgba(212,160,23,.06))">🥾</div>
+        <div class="card-body">
+          <div class="card-label">Trail Guide</div>
+          <h3>Dog-Friendly Hiking Trails in Marin County</h3>
+          <p>Ten trails we've walked ourselves — with honest notes on difficulty, leash rules, water access, and parking.</p>
+          <div class="card-foot"><span>9 min read</span><span class="card-tag">Local Guide</span></div>
+        </div>
+      </a>
+      <a href="gear.html#harness" class="card reveal">
+        <div class="card-icon" style="background:linear-gradient(135deg,rgba(224,124,52,.08),rgba(212,160,23,.08))">🦺</div>
+        <div class="card-body">
+          <div class="card-label">Gear Review</div>
+          <h3>Dog Harnesses Compared: 8 Models Tested on Bay Trails</h3>
+          <p>We hiked Lands End, Tennessee Valley, and Tilden with 8 harnesses. Comfort, fit, and durability ranked honestly.</p>
+          <div class="card-foot"><span>10 min read</span><span class="card-tag">Updated Apr 2025</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TOP PICKS PREVIEW -->
+<section class="section-alt" id="picks">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">Tested &amp; Ranked</div>
+      <h2 class="section-title">This Month's Top Picks</h2>
+      <p class="section-desc">Products we've bought, tested, and ranked based on real use — not ad spend.</p>
+    </div>
+    <div class="g4">
+      <div class="pcard reveal">
+        <div class="pcard-badge">Top Rated</div>
+        <div class="pcard-rank">#1</div>
+        <h3>Casper Dog Bed</h3>
+        <div class="sub">Memory foam · Washable cover · All sizes</div>
+        <div class="scores">
+          <div class="sc"><span>Comfort</span><span class="v">9.4</span></div>
+          <div class="sc"><span>Durability</span><span class="v">8.8</span></div>
+          <div class="sc"><span>Space-Fit</span><span class="v">9.2</span></div>
+          <div class="sc"><span>Value</span><span class="v">9.0</span></div>
+        </div>
+        <ul class="pros">
+          <li>Works well in smaller apartments</li>
+          <li>Supportive for older dogs</li>
+        </ul>
+        <a href="gear.html" class="pcard-cta">Read Full Review →</a>
+        <div class="pcard-price">Approx. $79.99 on Amazon</div>
+      </div>
+      <div class="pcard reveal">
+        <div class="pcard-rank">#2</div>
+        <h3>Ruffwear Front Range Harness</h3>
+        <div class="sub">Padded chest · 2 leash points · Trail-ready</div>
+        <div class="scores">
+          <div class="sc"><span>Comfort</span><span class="v">9.6</span></div>
+          <div class="sc"><span>Durability</span><span class="v">9.3</span></div>
+          <div class="sc"><span>Fit</span><span class="v">9.0</span></div>
+          <div class="sc"><span>Value</span><span class="v">8.5</span></div>
+        </div>
+        <ul class="pros">
+          <li>Held up well on rocky Marin trails</li>
+          <li>Easy to put on and adjust</li>
+        </ul>
+        <a href="gear.html#harness" class="pcard-cta">Read Full Review →</a>
+        <div class="pcard-price">Approx. $39.95 on Amazon</div>
+      </div>
+      <div class="pcard reveal">
+        <div class="pcard-rank">#3</div>
+        <h3>ChuckIt! Ultra Ball</h3>
+        <div class="sub">High-bounce · Durable rubber · Visible color</div>
+        <div class="scores">
+          <div class="sc"><span>Fun Factor</span><span class="v">9.8</span></div>
+          <div class="sc"><span>Durability</span><span class="v">9.1</span></div>
+          <div class="sc"><span>Safety</span><span class="v">9.5</span></div>
+          <div class="sc"><span>Value</span><span class="v">9.7</span></div>
+        </div>
+        <ul class="pros">
+          <li>Bounces well on beach sand</li>
+          <li>Lasted months of daily use</li>
+        </ul>
+        <a href="gear.html" class="pcard-cta">Read Full Review →</a>
+        <div class="pcard-price">Approx. $8.99 on Amazon</div>
+      </div>
+      <div class="pcard reveal">
+        <div class="pcard-rank">#4</div>
+        <h3>Embark Dog DNA Kit</h3>
+        <div class="sub">Breed ID + Health · 350+ breeds · Vet-partnered</div>
+        <div class="scores">
+          <div class="sc"><span>Accuracy</span><span class="v">9.7</span></div>
+          <div class="sc"><span>Health Info</span><span class="v">9.5</span></div>
+          <div class="sc"><span>Ease of Use</span><span class="v">8.8</span></div>
+          <div class="sc"><span>Value</span><span class="v">8.2</span></div>
+        </div>
+        <ul class="pros">
+          <li>Most detailed health screening available</li>
+          <li>Results in about 3 weeks</li>
+        </ul>
+        <a href="gear.html" class="pcard-cta">Read Full Review →</a>
+        <div class="pcard-price">Approx. $129.00 on Amazon</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BAY AREA -->
+<section id="bayarea">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">Bay Area Local</div>
+      <h2 class="section-title">Dog-Friendly Spots Near You</h2>
+      <p class="section-desc">Local guides written by people who live here and walk these parks and trails with their own dogs.</p>
+    </div>
+    <div class="bay-grid reveal">
+      <div class="bay-feat">
+        <div class="bay-feat-inner">
+          <div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;opacity:.6;margin-bottom:10px">Featured</div>
+          <h3>Point Isabel Regional Shoreline, Richmond</h3>
+          <p>One of the largest off-leash dog parks in the country at 23 acres. Bayfront paths, a dog wash station, and Mudpuppy's café right at the entrance. Typically less crowded on weekday mornings.</p>
+          <a href="parks.html" class="btn btn-gold btn-sm">Read the Full Guide →</a>
+        </div>
+      </div>
+      <div class="bay-side">
+        <a href="parks.html#sf" class="bay-card">
+          <div class="city" style="color:var(--orange)">San Francisco</div>
+          <h4>Fort Funston Off-Leash Area</h4>
+          <p>Cliff-top trails and a long sandy beach. Popular with dogs who love sand. Note: erosion has closed some paths — check current conditions before going.</p>
+        </a>
+        <a href="parks.html#oakland" class="bay-card">
+          <div class="city" style="color:var(--gold-dark)">Oakland</div>
+          <h4>Lake Merritt Dog Areas</h4>
+          <p>Three designated off-leash sections around the lake. The east side near the bird sanctuary tends to be quietest.</p>
+        </a>
+        <a href="trails.html" class="bay-card">
+          <div class="city" style="color:var(--gray)">Marin</div>
+          <h4>Tennessee Valley Trail</h4>
+          <p>A 3.4-mile round trip to a secluded beach. Creek crossings along the way — dogs love the water. Parking fills up by 10am on weekends.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="section-alt">
+  <div class="container">
+    <div class="reveal">
+      <div class="tag">Browse by Topic</div>
+      <h2 class="section-title">What Are You Looking For?</h2>
+    </div>
+    <div class="g5 reveal">
+      <a href="gear.html" class="catbox"><div class="icon">🎒</div><div class="name">Gear Reviews</div><div class="cnt">12 articles</div></a>
+      <a href="parks.html" class="catbox"><div class="icon">🏞️</div><div class="name">Dog Parks</div><div class="cnt">8 guides</div></a>
+      <a href="trails.html" class="catbox"><div class="icon">🥾</div><div class="name">Hiking Trails</div><div class="cnt">10 guides</div></a>
+      <a href="gear.html#wellness" class="catbox"><div class="icon">💊</div><div class="name">Health &amp; Wellness</div><div class="cnt">6 articles</div></a>
+      <a href="gear.html#tech" class="catbox"><div class="icon">📱</div><div class="name">Tech &amp; Gadgets</div><div class="cnt">4 articles</div></a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="nl" id="newsletter">
+  <div class="container">
+    <div class="tag" style="color:rgba(255,255,255,.6)">Stay Updated</div>
+    <h2 style="font-size:clamp(1.6rem,3.5vw,2.2rem)">Bay Area Dog Updates, Weekly</h2>
+    <p>Trail condition alerts, new gear reviews, and local event roundups. No spam — unsubscribe anytime.</p>
+    <form class="nl-form" onsubmit="event.preventDefault();this.querySelector('button').textContent='✓ Subscribed!';this.querySelector('button').style.background='#48BB78';this.querySelector('input').value=''">
+      <input type="email" placeholder="your@email.com" required>
+      <button type="submit">Subscribe Free →</button>
+    </form>
+    <div class="nl-sub">Join Bay Area dog owners who find this useful</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="ft-grid">
+      <div>
+        <div class="ft-brand">🐾 GoldenBork</div>
+        <p class="ft-desc">Honest, up-to-date dog lifestyle guides for the Bay Area. We buy and test everything ourselves. Affiliate links help keep this site free.</p>
+      </div>
+      <div>
+        <div class="ft-heading">Guides</div>
+        <div class="ft-links">
+          <a href="gear.html">Gear Reviews</a>
+          <a href="parks.html">Dog Parks</a>
+          <a href="trails.html">Hiking Trails</a>
+        </div>
+      </div>
+      <div>
+        <div class="ft-heading">Bay Area</div>
+        <div class="ft-links">
+          <a href="parks.html#sf">San Francisco</a>
+          <a href="parks.html#oakland">Oakland</a>
+          <a href="parks.html#marin">Marin County</a>
+          <a href="parks.html#berkeley">Berkeley</a>
+          <a href="parks.html#sanjose">San Jose</a>
+        </div>
+      </div>
+      <div>
+        <div class="ft-heading">Info</div>
+        <div class="ft-links">
+          <a href="about.html">About Us</a>
+          <a href="about.html#how">How We Test</a>
+          <a href="about.html#affiliate">Affiliate Disclosure</a>
+        </div>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <span>© 2025 GoldenBork. All rights reserved.</span>
+      <span>We earn commissions from qualifying Amazon purchases. This doesn't change our rankings or recommendations.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll',()=>{
+  const h=document.documentElement;
+  document.getElementById('prog').style.width=((h.scrollTop/(h.scrollHeight-h.clientHeight))*100)+'%';
+  document.getElementById('nav').classList.toggle('scrolled',scrollY>20);
+});
+new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis')}})},{threshold:.1}).observe(document.querySelectorAll('.reveal').forEach(el=>{el})||document.body);
+document.querySelectorAll('.reveal').forEach(el=>new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');e.target._io&&e.target._io.disconnect()}})},{threshold:.1}).observe((el._io=new IntersectionObserver(()=>{}),el)));
+// Simpler approach
+const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');obs.unobserve(e.target)}})},{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
